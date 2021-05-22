@@ -1,0 +1,37 @@
+* {
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: orange;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.innerLink{
+    display: none;
+    /* flex-direction: column; */
+}
+.linkItems{
+    display: none;
+}
+.innerPages{
+    display: flex;
+    flex-direction: column;
+}
+
+.pageItems{
+    display: none;
+}
