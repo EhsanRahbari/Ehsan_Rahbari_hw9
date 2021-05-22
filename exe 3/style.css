@@ -1,0 +1,25 @@
+#parent{
+    height: 180px;
+    width: 500px;
+    background-color: green;
+    color: black;
+    border: 1px solid;
+}
+#main{
+    height: 90px;
+    width: 200px;
+    border: 1px solid;
+    background-color: green;
+    margin-top: 35px;
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+#child{
+    height: 45px;
+    width: 150px;
+    border: 1px solid;
+    background-color: green;
+    margin-left: 20px;
+}
