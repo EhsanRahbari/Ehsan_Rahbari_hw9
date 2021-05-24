@@ -1,0 +1,23 @@
+p {
+  display: none;
+  height: 100px;
+  background-color: paleturquoise;
+  border: black 4px;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+/* i{
+    margin-left: 5px;
+    height: 20px;
+    width: 100%;
+    background-color: palegreen;
+} */
+
+button {
+  height: 100px;
+  width: 100%;
+}
+button i {
+  margin-left: 0px;
+}
