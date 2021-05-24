@@ -7,6 +7,9 @@ $(document).ready(function () {
       .not(this)
       .each(function () {
         $(this).find("p").slideUp();
+        $(this).find("i").css({
+          transform: "rotate(0deg)",
+        });
       });
     $(this).find("p").slideDown();
 
